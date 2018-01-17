@@ -42,7 +42,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       sliderInput('freq', 'Minimum Frequency',
-                  min = 1, max = 50, value = 10),
+                  min = 1, max = 50, value = 15),
       sliderInput('max', 'Maximum Number of Words',
                   min = 1, max = 200, value = 50)
     ),
