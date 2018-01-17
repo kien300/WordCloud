@@ -3,6 +3,7 @@ library(wordcloud)
 library(memoise)
 
 # Using "memoise" to automatically cache the results
+#test email correction
 getTermMatrix <- memoise(function(book) {
   # Careful not to let just any name slip in here; a
   # malicious user could manipulate this value.
